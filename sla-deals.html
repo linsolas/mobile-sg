@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SLA Deals Status</title>
+
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+
+    <link rel="stylesheet" media="screen" href="css/mobile.css">
+</head>
+<body>
+
+    <div data-role="header" data-position="fixed" data-theme="b">
+        <h1><i class="icon-dashboard"></i> My Mobile Dashboards</h1>
+    </div>
+
+    <div data-role="header" data-position="fixed" data-theme="b">
+        <a href="index.html" data-role="button" data-icon="arrow-l" data-iconpos="left" data-inline="true">Back</a>
+        <h1><i class="icon-dashboard"></i> SLA Deals Status</h1>
+    </div>
+
+    <div data-role="collapsible" data-theme="b" data-content-theme="d" data-collapsed="false">
+        <h4>Deal FOO</h4>
+        <table>
+            <tr>
+                <td><i class="icon-calendar"></i></td>
+                <td>Treatment date</td>
+                <td style="font-weight: bold;">2013/01/01</td>
+            </tr>
+            <tr>
+                <td><i class="icon-cogs"></i></td>
+                <td>Workflow</td>
+                <td style="font-weight: bold;">
+                    <i class="icon-circle" style="color: green;"></i>
+                    <i class="icon-circle" style="color: orange;"></i>
+                    <i class="icon-circle-blank"></i>
+                    <i class="icon-circle-blank"></i>
+                    <i class="icon-circle-blank"></i>
+                    <i class="icon-circle-blank"></i>
+                    <i class="icon-circle-blank"></i>
+                    Load & Check
+                </td>
+            </tr>
+            <tr>
+                <td style="color: orange;"><i class="icon-warning-sign"></i></td>
+                <td>Status</td>
+                <td style="font-weight: bold; color: orange;">12 warnings</td>
+            </tr>
+        </table>
+    </div>
+
+    <div data-role="collapsible" data-theme="b" data-content-theme="d" data-collapsed="false">
+        <h4>Deal BAR</h4>
+        <table>
+            <tr>
+                <td><i class="icon-calendar"></i></td>
+                <td>Treatment date</td>
+                <td style="font-weight: bold;">2013/02/10</td>
+            </tr>
+            <tr>
+                <td><i class="icon-cogs"></i></td>
+                <td>Workflow</td>
+                <td style="font-weight: bold;">
+                    <i class="icon-circle" style="color: green;"></i>
+                    <i class="icon-circle" style="color: green;"></i>
+                    <i class="icon-circle" style="color: green;"></i>
+                    <i class="icon-circle" style="color: green;"></i>
+                    <i class="icon-circle" style="color: green;"></i>
+                    <i class="icon-circle" style="color: green;"></i>
+                    <i class="icon-circle" style="color: green;"></i>
+                    Closing
+                </td>
+            </tr>
+            <tr>
+                <td style="color: green;"><i class="icon-thumbs-up"></i></td>
+                <td>Status</td>
+                <td style="font-weight: bold; color: green;">Everything OK</td>
+            </tr>
+        </table>
+    </div>
+
+    <div data-role="collapsible" data-theme="b" data-content-theme="d" data-collapsed="false">
+        <h4>Deal BAZ</h4>
+        <table>
+            <tr>
+                <td><i class="icon-calendar"></i></td>
+                <td>Treatment date</td>
+                <td style="font-weight: bold;">2013/03/21</td>
+            </tr>
+            <tr>
+                <td><i class="icon-cogs"></i></td>
+                <td>Workflow</td>
+                <td style="font-weight: bold;">
+                    <i class="icon-circle" style="color: red;"></i>
+                    <i class="icon-circle-blank"></i>
+                    <i class="icon-circle-blank"></i>
+                    <i class="icon-circle-blank"></i>
+                    <i class="icon-circle-blank"></i>
+                    <i class="icon-circle-blank"></i>
+                    <i class="icon-circle-blank"></i>
+                    FTP Download
+                </td>
+            </tr>
+            <tr>
+                <td style="color: red;"><i class="icon-ambulance"></i></td>
+                <td>Status</td>
+                <td style="font-weight: bold; color: red;">Error: FTP unreachable.</td>
+            </tr>
+        </table>
+    </div>
+
+    <div data-role="footer" data-position="fixed" data-theme="b">
+        <h1><i class="icon-dashboard"></i> My Mobile Dashboards</h1>
+    </div>
+
+
+</body>
+</html>

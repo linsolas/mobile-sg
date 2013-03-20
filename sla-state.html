@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>B3S State</title>
+
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+
+
+    <link rel="stylesheet" media="screen" href="css/mobile.css">
+</head>
+<body>
+
+    <div data-role="header" data-position="fixed" data-theme="b">
+        <h1><i class="icon-dashboard"></i> My Mobile Dashboards</h1>
+    </div>
+
+    <div data-role="header" data-position="fixed" data-theme="b">
+        <a href="index.html" data-role="button" data-icon="arrow-l" data-iconpos="left" data-inline="true">Back</a>
+        <h1><i class="icon-dashboard"></i> SLA Application State</h1>
+    </div>
+
+    <div data-role="collapsible" data-theme="a" data-content-theme="d" data-collapsed="false">
+        <h4>PRODUCTION</h4>
+        <table>
+            <tr>
+                <td><i class="icon-globe"></i></td>
+                <td>Deal FOO server</td>
+                <td style="color: green;"><i class="icon-check"></i></td>
+                <td style="font-weight: bold; color: green;">OK</td>
+            </tr>
+            <tr>
+                <td><i class="icon-globe"></i></td>
+                <td>Deal BAR server</td>
+                <td style="color: green;"><i class="icon-check"></i></td>
+                <td style="font-weight: bold; color: green;">OK</td>
+            </tr>
+            <tr>
+                <td><i class="icon-building"></i></td>
+                <td>Database</td>
+                <td style="color: green;"><i class="icon-check"></i></td>
+                <td style="font-weight: bold; color: green;">OK</td>
+            </tr>
+            <tr>
+                <td><i class="icon-laptop"></i></td>
+                <td>Client</td>
+                <td style="color: green;"><i class="icon-check"></i></td>
+                <td style="font-weight: bold; color: green;">OK</td>
+            </tr>
+        </table>
+    </div>
+
+    <div data-role="collapsible" data-theme="b" data-content-theme="d" data-collapsed="true">
+        <h4>PRE-PRODUCTION</h4>
+        <table>
+        </table>
+        <tr>
+            <td><i class="icon-globe"></i></td>
+            <td>Deal FOO server</td>
+            <td style="color: green;"><i class="icon-check"></i></td>
+            <td style="font-weight: bold; color: green;">OK</td>
+        </tr>
+        <tr>
+            <td><i class="icon-globe"></i></td>
+            <td>Deal BAR server</td>
+            <td style="color: green;"><i class="icon-check"></i></td>
+            <td style="font-weight: bold; color: green;">OK</td>
+        </tr>
+        <tr>
+            <td><i class="icon-building"></i></td>
+            <td>Database</td>
+            <td style="color: green;"><i class="icon-check"></i></td>
+            <td style="font-weight: bold; color: green;">OK</td>
+        </tr>
+        <tr>
+            <td><i class="icon-laptop"></i></td>
+            <td>Client</td>
+            <td style="color: green;"><i class="icon-check"></i></td>
+            <td style="font-weight: bold; color: green;">OK</td>
+        </tr>
+    </div>
+
+    <div data-role="collapsible" data-theme="b" data-content-theme="d" data-collapsed="false">
+        <h4>HOMOLOGATION <i class="icon-warning-sign"></i></h4>
+        <table>
+            <tr>
+                <td><i class="icon-globe"></i></td>
+                <td>Deal FOO server</td>
+                <td style="color: red;"><i class="icon-warning-sign"></i></td>
+                <td style="font-weight: bold; color: red;">Server unreachable</td>
+            </tr>
+            <tr>
+                <td><i class="icon-globe"></i></td>
+                <td>Deal BAR server</td>
+                <td style="color: green;"><i class="icon-check"></i></td>
+                <td style="font-weight: bold; color: green;">OK</td>
+            </tr>
+            <tr>
+                <td><i class="icon-building"></i></td>
+                <td>Database</td>
+                <td style="color: green;"><i class="icon-check"></i></td>
+                <td style="font-weight: bold; color: green;">OK</td>
+            </tr>
+            <tr>
+                <td><i class="icon-laptop"></i></td>
+                <td>Client</td>
+                <td style="color: green;"><i class="icon-check"></i></td>
+                <td style="font-weight: bold; color: green;">OK</td>
+            </tr>
+        </table>
+    </div>
+
+    <div data-role="collapsible" data-theme="b" data-content-theme="d" data-collapsed="false">
+        <h4>DEVELOPMENT <i class="icon-warning-sign"></i></h4>
+        <table>
+            <tr>
+                <td><i class="icon-globe"></i></td>
+                <td>Deal FOO server</td>
+                <td style="color: green;"><i class="icon-check"></i></td>
+                <td style="font-weight: bold; color: green;">OK</td>
+            </tr>
+            <tr>
+                <td><i class="icon-globe"></i></td>
+                <td>Deal BAR server</td>
+                <td style="color: green;"><i class="icon-check"></i></td>
+                <td style="font-weight: bold; color: green;">OK</td>
+            </tr>
+            <tr>
+                <td><i class="icon-building"></i></td>
+                <td>Database</td>
+                <td style="color: red;"><i class="icon-warning-sign"></i></td>
+                <td style="font-weight: bold; color: red;">Database currently down</td>
+            </tr>
+            <tr>
+                <td><i class="icon-laptop"></i></td>
+                <td>Client</td>
+                <td style="color: green;"><i class="icon-check"></i></td>
+                <td style="font-weight: bold; color: green;">OK</td>
+            </tr>
+        </table>
+    </div>
+
+    <div data-role="footer" data-position="fixed" data-theme="b">
+        <h1><i class="icon-dashboard"></i> My Mobile Dashboards</h1>
+    </div>
+
+
+</body>
+</html>
