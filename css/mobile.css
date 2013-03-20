@@ -1,7 +1,11 @@
-.ui-li-static {
-   font-size: 40px
-}
+/*.ui-li-static {*/
+   /*font-size: 40px*/
+/*}*/
 
-.ui-link-inherit {
-    font-size: 40px;
+/*.ui-link-inherit {*/
+    /*font-size: 40px;*/
+/*}*/
+
+body {
+   font-size: 200% !important;
 }
